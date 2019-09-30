@@ -1,0 +1,56 @@
+/* Headers */
+.text h3
+{
+	list-style-type: none;
+  	text-align: justify;
+  	margin-left: 10%;
+  	background-image: linear-gradient(to left, #235ed3, #00ffff)
+}
+
+/* Paragraphs */
+/* first div */
+.first h3
+{
+	margin-left: 15%;
+}
+.first p
+{
+	margin-left: 20%;
+}
+
+
+/* second div */
+.second h3
+{
+	margin-left: 25%;
+}
+.second p
+{
+	margin-left: 30%;
+}
+
+
+/* third div */
+.third h3
+{
+	margin-left: 35%;
+}
+.third p
+{
+	margin-left: 40%;
+}
+.third a
+{
+	margin-left: 45%;
+}
+
+
+/* fourth div */
+.fourth h3
+{
+	margin-left: 50%;
+}
+.fourth a
+{
+	margin-left: 55%;
+}

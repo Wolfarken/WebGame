@@ -1,0 +1,31 @@
+/* Unordered list */
+#navigationMenu ul 
+{
+  list-style-type: none;
+  text-align: center;
+  background-color: #235ed3;
+}
+
+/* List item display */
+#navigationMenu li 
+{
+  display: inline-block;
+  color: #ffffff;
+}
+
+/* List link */
+#navigationMenu a 
+{
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+/* List link hover */
+#navigationMenu li a:hover 
+{
+  background-color: #000000;
+  transition: 500ms;
+}

@@ -1,0 +1,15 @@
+/* Background */
+body
+{
+	background-image: url("../image/Masonry Stone Wall.jpg");
+}
+
+/* Door Image */
+#door
+{
+	display: block;
+	margin: auto;
+	width: 400px;
+	height: 640px;
+	border: 0";
+}

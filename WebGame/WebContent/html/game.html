@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Vitor Yamanaka">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>WebGame</title>
+
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+		
+		<link rel="stylesheet" href="../css/navigation.css">
+		<link rel="stylesheet" href="../css/game.css">
+	</head>
+	
+	<body>
+		<div id="navigationMenu"></div>
+		
+		<div class="gameWindow">
+			<img id="light-bulb" src="../image/Light Bulb-Off.png" title="Turn On/Off" alt="Light-bulb" 
+					onclick="TurnLightOnOff()">
+
+			<img id="key" class="element" src="../image/Key.png" title="Take" alt="Key"
+					onclick="ElementsInteraction(document.getElementById('key'))">
+
+			<img id="tes" class="element" src="../image/Key.png" title="Take" alt="tes"
+					onclick="ElementsInteraction(document.getElementById('tes'))">
+		</div>
+		
+		<script src="../js/navigation.js"></script>
+		<script src="../js/gameElement.js"></script>
+	</body>
+</html>
